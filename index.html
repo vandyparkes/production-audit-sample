@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Community Tech Fair</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Community Tech Fair</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="#registration">Register</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div>
+        <h1>Community Tech Fair</h1>
+        <p class="lede">A one-day event for students, families, and community members who want practical introductions to web, media, accessibility, and creative technology.</p>
+        <a class="button" href="#registration">Save a seat</a>
+      </div>
+      <img src="images/fair-poster.svg" alt="poster">
+    </section>
+
+    <section>
+      <h2>Featured sessions</h2>
+      <div class="cards">
+        <article class="card featured">
+          <h2>Accessible websites in daily life</h2>
+          <p>Learn how headings, links, contrast, and keyboard access affect real people using everyday websites.</p>
+        </article>
+        <article class="card">
+          <h2>Designing with responsive systems</h2>
+          <p>See how layout decisions change across phones, tablets, laptops, and projected displays.</p>
+        </article>
+        <article class="card">
+          <h2>Media performance lab</h2>
+          <p>Compare image sizes, loading behavior, and readable quality in browser developer tools.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="registration" class="registration">
+      <h2>Register interest</h2>
+      <p>Registration is free. We use this form to estimate seating and workshop supplies.</p>
+      <form>
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Session interest
+          <select name="session">
+            <option>Accessibility</option>
+            <option>Responsive design</option>
+            <option>Media performance</option>
+          </select>
+        </label>
+        <button>Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Community Tech Fair · Demo site for production audit practice</p>
+  </footer>
+</body>
+</html>

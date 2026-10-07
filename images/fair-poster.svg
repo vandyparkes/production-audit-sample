@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Community technology fair poster</title>
+  <desc id="desc">A simple poster graphic with abstract screens, code brackets, and a workshop table.</desc>
+  <rect width="640" height="420" fill="#f7f3e8"/>
+  <rect x="52" y="52" width="536" height="316" rx="18" fill="#ffffff" stroke="#8c1d40" stroke-width="8"/>
+  <circle cx="150" cy="148" r="46" fill="#ffc627"/>
+  <rect x="242" y="104" width="238" height="92" rx="10" fill="#8c1d40"/>
+  <path d="M292 142l-28 24 28 24M430 142l28 24-28 24" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="116" y="250" width="408" height="26" rx="13" fill="#d0d0d0"/>
+  <rect x="158" y="292" width="324" height="26" rx="13" fill="#d0d0d0"/>
+  <rect x="236" y="330" width="168" height="18" rx="9" fill="#ffc627"/>
+</svg>
